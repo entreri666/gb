@@ -22,7 +22,7 @@ public class HW4 {
 
         while (true) {
 
-            turnHuman();
+            turnPlayer();
             printMap();
             if (checkDiagonal(player) | checkLanes(player)) {
                 System.out.println("Player win!");
@@ -79,7 +79,7 @@ public class HW4 {
         System.out.println("---------------");
     }
 
-    public static void turnHuman() {
+    public static void turnPlayer() {
         int x;
         int y;
 
